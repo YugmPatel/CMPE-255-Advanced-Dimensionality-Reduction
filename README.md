@@ -1,27 +1,39 @@
 # CMPE-255-Advanced-Dimensionality-Reduction
 
-## **Overview**
-This project demonstrates various dimensionality reduction techniques on both image and tabular datasets. The focus is to showcase how these techniques work, their performance on different datasets, and interactive visualizations where applicable.
+This repository demonstrates a variety of dimensionality reduction techniques using multiple datasets, including both image and tabular data. The project is designed to explore and compare the performance of these techniques, providing insights into their strengths and limitations.  
 
-## **Techniques Covered**
-1. Locally Linear Embedding (LLE)
-2. t-SNE (t-distributed Stochastic Neighbor Embedding)
-3. ISOMAP
-4. UMAP (Uniform Manifold Approximation and Projection)
-5. Multi-Dimensional Scaling (MDS)
-6. Randomized PCA
-7. Kernel PCA
-8. Incremental PCA
-9. Factor Analysis
-10. Autoencoders (Deep Learning-based dimensionality reduction)
+## Overview  
 
-## **Datasets Used**
-1. **Digits Dataset**: Interactive visualization of high-dimensional image data (sklearn dataset).  
-2. **Iris Dataset**: Tabular dataset for basic reduction and visualization (sklearn dataset).  
-3. **Medical Dataset**: Contains health metrics for advanced reduction and analysis (from Kaggle).  
+This project explores the following dimensionality reduction techniques:  
 
-## **Setup Instructions**
-### Prerequisites
-- Python 3.7+
-- Jupyter Notebook or Google Colab
-- Libraries: scikit-learn, TensorFlow, numpy, pandas, matplotlib, seaborn, plotly
+- Locally Linear Embedding (LLE)  
+- t-Distributed Stochastic Neighbor Embedding (t-SNE)  
+- ISOMAP  
+- Uniform Manifold Approximation and Projection (UMAP)  
+- Multidimensional Scaling (MDS)  
+- Randomized Principal Component Analysis (Randomized PCA)  
+- Kernel Principal Component Analysis (Kernel PCA)  
+- Incremental Principal Component Analysis (Incremental PCA)  
+- Factor Analysis (Scikit-learn)  
+- Autoencoders  
+
+The assignment includes:  
+1. Colab notebooks demonstrating the techniques on image and tabular datasets.  
+2. A Databricks notebook showcasing dimensionality reduction techniques.  
+3. Interactive visualizations to aid in understanding the results.  
+
+**Video Tutorial:** [Youtube Video Link](https://youtu.be/vJPpitQYS2Y)  
+
+## Datasets Used  
+
+### Image Datasets  
+- **Olivetti Faces Dataset** (from `sklearn`)  
+- **Digits Dataset** (from `sklearn`)  
+
+### Tabular Datasets  
+- **Iris Dataset** (from `sklearn`)  
+- **Heart Disease Dataset** (from Kaggle)  
+- **Breast Cancer Dataset** (from `sklearn`)  
+
+### Medical Datasets  
+- Medical datasets from reputable research papers (added in `datasets/`).  
